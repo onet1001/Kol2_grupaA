@@ -17,3 +17,6 @@ export class DataService {
     return this.http.get(this.url + '/api/order/items/' + id);
   }
 }
+
+export class DODataService {
+}

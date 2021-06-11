@@ -8,12 +8,12 @@ import {Component, Input, OnInit} from '@angular/core';
 export class OrdersItemDOComponent implements OnInit {
 
 
+
   @Input() id?: string;
   @Input() title?: string;
-  @Input() text: string;
+  @Input() text?: string;
   @Input() image?: string;
   @Input() price?: string;
-
 
   constructor() { }
 
